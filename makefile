@@ -16,7 +16,7 @@ bison: analSint.y
 analSint.tab.o: analSint.tab.c
 	$(CC) -c -std=c++17 
 
-sample.o: sample.cpp parser.h
+sample.o: sample.cpp parser.hq
 	$(CC) -c -std=c++17 sample.cpp
 
 parser.o: parser.cpp parser.h tokens.h

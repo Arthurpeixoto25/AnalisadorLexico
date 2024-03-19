@@ -34,7 +34,7 @@ classeDefinida: RCLASS CLASS EQUIVALENTTO INDIVIDUALS
 equivalent: 
     ;
 
-INDIVIDUALS: RINDIVIDUALS individual_instanciees // :
+individuals: RINDIVIDUALS individual_instanciees // :
     |
     ;
 
@@ -58,7 +58,7 @@ seqProp:
     
 connect: 
 
-PROPRIEDADE: PROPRIEDADES some
+propriedade: PROPRIEDADES some
     | PROPRIEDADES only        
     | PROPRIEDADES value
     | PROPRIEDADES qntd
